@@ -2,16 +2,6 @@ import React, { Component } from "react";
 
 export default class Footer extends Component {
   render() {
-    // let email = this.props.data.email;
-    // let networks = this.props.data.social.map(function(social) {
-    //   return (
-    //     <li key={social.name}>
-    //       <a href={social.url}>
-    //         <i className={social.className} />
-    //       </a>
-    //     </li>
-    //   );
-    // });
     return (
       <footer
         id="contact"
@@ -26,8 +16,6 @@ export default class Footer extends Component {
           Icons made by Pixel perfect from{" "}
           <a href="www.flaticon.com">www.flaticon.com</a>
         </div>
-        {/* <div className="social">{networks}</div>
-        <h3>{email}</h3> */}
       </footer>
     );
   }

@@ -44,10 +44,7 @@ export default class Contact extends Component {
             fontFamily: "Courgette, cursive"
           }}
         >
-          <div
-            className="col-lg-4 col-md-12 col-sm-12"
-            style={{ height: "200px" }}
-          >
+          <div className="col-lg-4 col-12" style={{ height: "200px" }}>
             <div
               style={{
                 width: "80%",
@@ -72,10 +69,7 @@ export default class Contact extends Component {
             </div>
           </div>
 
-          <div
-            className="col-lg-4 col-md-12 col-sm-12"
-            style={{ height: "200px" }}
-          >
+          <div className="col-lg-4 col-12" style={{ height: "200px" }}>
             <div
               style={{
                 width: "80%",
@@ -95,10 +89,7 @@ export default class Contact extends Component {
               </div>
             </div>
           </div>
-          <div
-            className="col-lg-4 col-md-12 col-sm-12"
-            style={{ height: "200px" }}
-          >
+          <div className="col-lg-4 col-12" style={{ height: "200px" }}>
             <div style={{ width: "80%", margin: "0 auto", height: "100%" }}>
               <SVGYELP
                 style={{
