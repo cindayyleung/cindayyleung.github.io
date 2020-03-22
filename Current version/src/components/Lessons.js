@@ -55,7 +55,7 @@ export default class Lessons extends Component {
               theory.
             </div>
           </div>
-          <div className="col-lg-4 col-md-12 col-sm-12 mt-sm-5 mt-lg-0">
+          <div className="col-lg-4 col-md-12 col-sm-12 mt-5 mt-lg-0">
             <SVGPIANO style={{ width: "100px", height: "100px" }} />
             <div
               style={{
@@ -79,7 +79,7 @@ export default class Lessons extends Component {
               material, which will require much more attention to detail.
             </div>
           </div>
-          <div className="col-lg-4 col-md-12 col-sm-12 mt-sm-5 mt-lg-0">
+          <div className="col-lg-4 col-md-12 col-sm-12 mt-5 mt-lg-0">
             <SVGMUSIC style={{ width: "100px", height: "100px" }} />
             <div
               style={{
