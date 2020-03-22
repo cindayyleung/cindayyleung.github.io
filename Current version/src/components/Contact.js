@@ -48,13 +48,19 @@ export default class Contact extends Component {
             className="col-lg-4 col-md-12 col-sm-12"
             style={{ height: "200px" }}
           >
-            <div style={{ width: "80%", margin: "0 auto", height: "100%" }}>
+            <div
+              style={{
+                width: "80%",
+                margin: "0 auto",
+                height: "100%",
+                cursor: "pointer"
+              }}
+            >
               <SVGEMAIL
                 style={{
                   width: "70px",
                   height: "70px",
-                  marginTop: "50px",
-                  cursor: "pointer"
+                  marginTop: "50px"
                 }}
                 onClick={() => this.toPage("email")}
               />
