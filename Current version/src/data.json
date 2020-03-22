@@ -1,0 +1,96 @@
+{
+  "main": {
+    "name": "Cindy Leung",
+    "occupation": "senior computer science student at CSULB",
+    "description": "I like to put in the time to figure things out and learn interesting things!",
+    "profile": "./images/profile.jpg",
+    "bio1": "Ms. Cindy graduated from California State University, Long Beach with a degree in Piano Performance. She started the piano at age 10 and since then has been part of the Music Teachers Association of California (MTAC) community from a student to now a teacher. Ms. Cindy is currently pursuing her certificate program in Music Therapy at California State University, Northridge, where she will be learning how to use music as a therapeutic tool to assist individuals with a disability and ultimately improving their quality of life.",
+    "bio2": "In addition to her teaching, she creates music. As a child, she was part of the Chinatown Children's Choir and now as an alumna volunteers as the piano accompanist and choir assistant. She composes flute arrangements and accompanies the choir at their annual concert. On Sundays, she is the worship leader at the First United Methodist Church of San Gabriel, where she leads the worship team and sings while playing either the piano, guitar, bass, or drums.",
+    "bio3": "Aside from her musical life, she has served in the Army Reserves for 6 years and is ready to finish her contract. She endured hardship throughout basic training and was chosen to be promoted amongst her peers. Now as a sergeant, she has been tasked various leadership roles and one of her biggest responsibilities was being a squad leader. She learned that the welfare and the wellbeing of her soldiers was her priority. One of the best things about being in the Army is having the opportunity to travel to different states such as South Carolina, Virginia, Georgia, and Hawaii.",
+    "bio4": "All of Ms. Cindy’s experiences, whether being a musician, a soldier, a student, or even a teacher, have shaped her into the person she is now. Ms. Cindy strongly believes that finding one’s own passion is very important. She strives in not only teaching music to her students but also teaching them how to love music. Ms. Cindy understands that every student is unique in their own way and learns differently. She will tailor each lesson and create a positive learning environment for all her students.",
+    "contactmessage": "You can contact me through email.",
+    "email": "lid52200@gmail.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/dongxuan-li-185655148/",
+        "className": "fab fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/dongxli",
+        "className": "fab fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "California State University, Long Beach",
+        "degree": "Bachelor of Science, Computer Science",
+        "years": "June 2015 - Decemeber 2019",
+        "description": "Studied many fundamentals of computer science such as 'Object Oriented Programming','Database Fundamentals', 'Data Structures and Algorithms'. Applied learned concepts in higher level courses such as 'Artificial Intelligence' and 'Mobile Application Development' "
+      }
+    ],
+    "work": [
+      {
+        "company": "IBM",
+        "title": "Software Developer Intern",
+        "years": "June 2018 - Janurary 2019",
+        "description": "Responsible for the design and implementation of the internal analytical dashboard for test analysis, display of story points, and interpretation of the product release health. Involved in creating and enhancing test automations with Jenkins to increase efficiency of the testing process. Participated in scrum meetings within the team and sprints to deliver progress"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "SQL (MySQL, PostgreSQL)",
+        "level": "85%"
+      },
+      {
+        "name": "NoSQL (MongoDB)",
+        "level": "70%"
+      },
+      {
+        "name": "Python",
+        "level": "90%"
+      },
+      {
+        "name": "Java",
+        "level": "90%"
+      },
+      {
+        "name": "C++",
+        "level": "70%"
+      },
+      {
+        "name": "Angular",
+        "level": "80%"
+      },
+      {
+        "name": "ReactJS",
+        "level": "70%"
+      },
+      {
+        "name": "Node JS, Express JS",
+        "level": "80%"
+      },
+      {
+        "name": "DJango",
+        "level": "75%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "TBA",
+        "category": "TBA",
+        "image": "TBA",
+        "url": "TBA"
+      }
+    ]
+  }
+}
