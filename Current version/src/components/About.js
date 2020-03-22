@@ -10,10 +10,10 @@ export class About extends Component {
     return (
       <section id="about">
         <div className="row">
-          <div className="col-md-4 mb-5 mb-md-0">
+          <div className="col-12 col-lg-4 mb-5 mb-lg-0">
             <img className="profile-pic" src={profile} alt="Profile Pic" />
           </div>
-          <div className="col-md-8">
+          <div className="col-12 col-lg-8">
             <div className="row">
               <h2>MS. CINDY</h2>
               <p>{bio1}</p>

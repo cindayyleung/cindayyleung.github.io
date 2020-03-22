@@ -35,13 +35,4 @@
   #about h5 {
     text-align: center;
   }
-
-  /* resume section */
-  #project .project_image {
-    width: 100%;
-  }
-
-  #project .row {
-    margin: 0 15%;
-  }
 }
