@@ -10,7 +10,7 @@ export default class Contact extends Component {
       yelp_url:
         "https://www.yelp.com/biz/cindy-leung-piano-studio-hacienda-heights",
       instagram_url: "https://www.instagram.com/cindyteachespiano/",
-      email: "cindyleung.piano@gmail.com"
+      email: "cindyleungpiano@gmail.com"
     };
   }
   toPage(name) {
