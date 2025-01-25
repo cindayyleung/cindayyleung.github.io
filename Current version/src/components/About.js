@@ -16,7 +16,7 @@ export class About extends Component {
           </div>
           <div className="col-12 col-lg-8">
             <div className="row">
-              <h2>MS. CINDY</h2>
+              <h2>MRS. CINDY</h2>
               <p>{bio1}</p>
               <p>{bio2}</p>
               <p>{bio3}</p>
