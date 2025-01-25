@@ -62,7 +62,7 @@ export default class Contact extends Component {
                 onClick={() => this.toPage("email")}
               />
               <div
-                style={{ height: "60px", fontSize: "15px", marginTop: "20px" }}
+                style={{ height: "60px", fontSize: "15px", marginTop: "20px",textAlign: 'center' }}
               >
                 {this.state.email}
               </div>
@@ -83,7 +83,7 @@ export default class Contact extends Component {
                 onClick={() => this.toPage("instagram")}
               />
               <div
-                style={{ height: "60px", fontSize: "15px", marginTop: "20px" }}
+                style={{ height: "60px", fontSize: "15px", marginTop: "20px",textAlign: 'center' }}
               >
                 @cindyteachespiano
               </div>
@@ -104,7 +104,8 @@ export default class Contact extends Component {
                 style={{
                   marginTop: "20px",
                   height: "60px",
-                  fontSize: "15px"
+                  fontSize: "15px",
+                  textAlign: 'center'
                 }}
               >
                 Cindy Leung Piano Studio

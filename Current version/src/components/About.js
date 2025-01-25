@@ -3,22 +3,27 @@ import React, { Component } from "react";
 export class About extends Component {
   render() {
     let bio1 = this.props.data.bio1;
-    let bio2 = this.props.data.bio2;
+    // let bio2 = this.props.data.bio2;
     let bio3 = this.props.data.bio3;
     let bio4 = this.props.data.bio4;
     let bio5 = this.props.data.bio5;
-    let profile = this.props.data.profile;
+    let profile1 = this.props.data.profile1;
+    let profile2 = this.props.data.profile2;
+
+    // has html, moving it here
+    const bio2 = "Mrs. Cindy continued her education at California State University, Northridge where she pursed a secondary degree in Music Therapy, studying under Ron Borczon, MT-BC and Helen Dolas, MT-BC. During her time at CSUN, Mrs. Cindy provided music therapy services to adults with developmental disabilities, children in a school setting, geriatrics population, as well as patients in an outpatient hospital setting. She completed her clinical internship at Metropolitan State Hospital, where she developed innovative and creative music therapy interventions for the forensic psychiatric population. Mrs. Cindy is now a board-certified music therapist working at Metro’s sister hospital Patton State Hospital, where she continues to use music as a therapeutic tool to meet the needs of her patients and ultimately improving their quality of life. She recently developed an a capella group at the hospital called “Patton-tonix” (inspired by <i>Pentatonix</i>), consisting of her music therapist colleagues. Her ultimate vision of this group is to adapt “Patton-tonix” into daily patient treatment care, providing treatment for the patients in a fun and creative way.";
     return (
       <section id="about">
         <div className="row">
           <div className="col-12 col-lg-4 mb-5 mb-lg-0">
-            <img className="profile-pic" src={profile} alt="Profile Pic" />
+            <img className="profile-pic1 mb-lg-4" src={profile1} alt="Profile Pic1" />
+            <img className="profile-pic2 mt-4 mt-md-0 mt-lg-2 ml-md-3 ml-lg-0" src={profile2} alt="Profile Pic2" />
           </div>
           <div className="col-12 col-lg-8">
             <div className="row">
               <h2>MRS. CINDY</h2>
               <p>{bio1}</p>
-              <p>{bio2}</p>
+              <p dangerouslySetInnerHTML={{__html: bio2}}></p>
               <p>{bio3}</p>
               <p>{bio4}</p>
               <p>{bio5}</p>
