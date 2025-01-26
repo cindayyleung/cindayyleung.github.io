@@ -18,7 +18,8 @@ export class About extends Component {
       <section id="about">
         <div className="row">
           <div className="col-12 col-lg-4 mb-5 mb-lg-0">
-            <img className="profile-pic1 mb-lg-4" src={profile1} alt="Profile Pic1" />
+            <div className="mt-lg-5"></div>
+            <img className="profile-pic1 mb-lg-4 mt-lg-5" src={profile1} alt="Profile Pic1" />
             <img className="profile-pic2 mt-4 mt-md-0 mt-lg-2 ml-md-3 ml-lg-0" src={profile2} alt="Profile Pic2" />
           </div>
           <div className="col-12 col-lg-8">
