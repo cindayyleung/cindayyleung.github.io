@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Lessons from "./components/Lessons";
+import Reviews from "./components/Reviews";
 import data from "./data.json";
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <Header data={this.state.data.main} />
         <About data={this.state.data.main} />
         <Lessons />
+        <Reviews data={this.state.data.reviews}/>
         <Contact />
         <Footer data={this.state.data.main} />
       </div>

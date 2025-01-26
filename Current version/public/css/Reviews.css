@@ -1,0 +1,47 @@
+#reviews {
+    background: #2d2d32;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #fff;
+    height: 700px;
+}
+
+.contentContainer {
+    background-color: #CDA34F;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.whatPeopleSay {
+    padding-top: 20px;
+    font-family: "Libre Baskerville, serif";
+    color: black;
+    letter-spacing: .2rem;
+}
+
+.review {
+    padding: 24px;
+    font-size: 20px;
+}
+
+.accordion {
+    height: 100%;
+}
+
+#carouselExample {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item{
+    height:100%;
+}
