@@ -35,4 +35,12 @@
   #about h5 {
     text-align: center;
   }
+
+  #reviews {
+    height: 900px !important;
+  }
+
+  .contentContainer {
+    height: 700px !important;
+  }
 }

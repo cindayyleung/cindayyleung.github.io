@@ -27,19 +27,20 @@ export default class Contact extends Component {
       <div style={{ minHeight: "400px", background: "#fafafa" }}>
         <div
           style={{
-            width: "50%",
+            width: "65%",
             paddingTop: "50px",
             margin: "0 auto 30px auto",
             fontSize: "50px",
             fontStyle: "italic"
           }}
+          className="text-center"
         >
           Let's stay connected!
         </div>
         <div
           className="row"
           style={{
-            width: "50%",
+            width: "56%",
             margin: "0 auto",
             fontFamily: "Courgette, cursive"
           }}
@@ -47,7 +48,7 @@ export default class Contact extends Component {
           <div className="col-lg-4 col-12" style={{ height: "200px" }}>
             <div
               style={{
-                width: "80%",
+                width: "100%",
                 margin: "0 auto",
                 height: "100%",
                 cursor: "pointer"
@@ -63,6 +64,7 @@ export default class Contact extends Component {
               />
               <div
                 style={{ height: "60px", fontSize: "15px", marginTop: "20px",textAlign: 'center' }}
+                className="text-center"
               >
                 {this.state.email}
               </div>

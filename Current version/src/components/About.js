@@ -24,7 +24,7 @@ export class About extends Component {
           </div>
           <div className="col-12 col-lg-8">
             <div className="row">
-              <h2>MRS. CINDY</h2>
+              <h2 className="text-center">MRS. CINDY</h2>
               <p>{bio1}</p>
               <p dangerouslySetInnerHTML={{__html: bio2}}></p>
               <p dangerouslySetInnerHTML={{__html: bio3}}></p>
